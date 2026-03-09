@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: red;
+    padding: 10px 16px;
+}
+
+.about-header h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.about-header{
+    
+}
+
+.about-header p{
+    color: white;
+}
