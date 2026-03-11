@@ -4,20 +4,53 @@ body{
 
 nav ul li{
     display: inline-block;
-    background-color: red;
-    padding: 10px 16px;
+    background-color: black;
 }
 
 .about-header h1{
     text-align: center;
     margin-top: 50px;
     color: white;
+    background-color: red;
 }
 
-.about-header{
-    
+header{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 10px 16px;
+}
+
+nav{
+    margin-left: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 50px;
 }
 
 .about-header p{
     color: white;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+div{
+    color: white;
+    margin: 40px;
+}
+
+#startingline{
+    margin: 40px;
+}
+
+.Fighters{
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
 }
