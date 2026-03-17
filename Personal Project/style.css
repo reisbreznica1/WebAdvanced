@@ -7,7 +7,7 @@ nav ul li{
     background-color: black;
 }
 
-.about-header h1{
+.about-html h1{
     text-align: center;
     margin-top: 50px;
     color: white;
@@ -35,7 +35,7 @@ header img{
     border-radius: 10px;
 }
 
-.about-header p{
+.about-html p{
     color: white;
 }
 
@@ -46,7 +46,6 @@ img{
 
 div{
     color: white;
-    margin: 40px;
 }
 
 #startingline{
@@ -60,11 +59,6 @@ div{
 }
 
 p{
-    color: white;
-    margin: 40px;
-}
-
-pre{
     color: white;
     margin: 40px;
 }
@@ -85,4 +79,46 @@ h2{
 h3{
     color: white;
     margin: 40px;
+}
+
+.work-html{
+    background-color: black;
+    color: white;
+}
+
+pre{
+    margin: 25px;
+    border-left: 3px solid rgb(170, 1, 1);
+    padding: 5px;
+}
+
+p{
+    margin: 25px;
+    border-left: 3px solid rgb(170, 1, 1);
+    padding: 5px;
+}
+
+.h1{
+    background-color: rgb(170, 1, 1);
+}
+
+.header-section {
+    position: relative;
+    background-color: rgb(170, 1, 1);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-section h2 {
+    color: white;
+    margin: 0;
+}
+
+.header-section a.home-link {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
 }
