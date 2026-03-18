@@ -4,12 +4,15 @@ body{
 
 nav ul li{
     display: inline-block;
-    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .about-html h1{
     text-align: center;
-    margin-top: 50px;
+    padding: 10px;
     color: white;
     background-color: rgb(170, 1, 1);
 }
@@ -35,13 +38,13 @@ header img{
     border-radius: 10px;
 }
 
-.about-html p{
+.content p{
     color: white;
 }
 
 img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 div{
@@ -105,7 +108,7 @@ p{
 .header-section {
     position: relative;
     background-color: rgb(170, 1, 1);
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
@@ -121,4 +124,36 @@ p{
     color: white;
     text-decoration: none;
     background-color: black;
+}
+
+nav ul li:hover{
+    background-color: rgb(170, 1, 1);
+}
+
+nav ul li a{
+color: black;
+}
+
+.header-section h2{
+    color: white;
+    padding: 10px;
+}
+
+pre{
+    margin: 25px;
+    border-left: 3px solid rgb(170, 1, 1);
+    padding: 5px;
+}
+
+.link{
+    color: white;
+    margin: 25px;
+    border-left: 3px solid rgb(170, 1, 1);
+    padding: 5px;
+}
+
+.about-image{
+    border: 2px solid rgb(170, 1, 1);
+    width: 1645px;
+    height: 1000px;
 }
