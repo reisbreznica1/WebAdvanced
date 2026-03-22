@@ -178,3 +178,11 @@ pre{
 .contact{
     text-align: center;
 }
+
+.imageandtext{
+    float: left;
+    border: 2px solid rgb(170, 1, 1);
+    width: 300px;
+    height: 300px;
+}
+
