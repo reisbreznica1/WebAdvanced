@@ -77,7 +77,8 @@ div{
 
 p{
     color: white;
-    margin: 40px;
+    margin: 25px;
+    padding: 5px;
 }
 
 .image{
@@ -103,19 +104,8 @@ h3{
     color: white;
 }
 
-pre{
-    margin: 25px;
-    border-left: 3px solid rgb(170, 1, 1);
-    padding: 5px;
-}
-
 .paragraph{
     border-left: 3px solid rgb(170, 1, 1);
-}
-
-p{
-    margin: 25px;
-    padding: 5px;
 }
 
 .h1{
@@ -132,15 +122,18 @@ p{
 .header-section h2 {
     color: white;
     margin: 0;
+    padding: 10px;
 }
 
-.header-section a.home-link {
+.home-link {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: black;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
 }
 
 nav ul li:hover{
@@ -148,31 +141,49 @@ nav ul li:hover{
 }
 
 nav ul li a{
-color: black;
-}
-
-.header-section h2{
-    color: white;
-    padding: 10px;
-}
-
-pre{
-    margin: 25px;
-    border-left: 3px solid rgb(170, 1, 1);
-    padding: 5px;
+    color: black;
 }
 
 .link{
     color: white;
     margin: 25px;
-    border-left: 3px solid rgb(170, 1, 1);
     padding: 5px;
+    display: inline-block;
 }
 
-.about-image{
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    display: block;
     border: 2px solid rgb(170, 1, 1);
-    width: 1245px;
-    height: 1000px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+
+    padding: 25px;
+    max-width: 70%;
+    text-align: center;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.overlay-text p {
+    margin: 0;
 }
 
 .contact{
@@ -182,7 +193,6 @@ pre{
 .imageandtext{
     float: left;
     border: 2px solid rgb(170, 1, 1);
-    width: 300px;
+    width: 400px;
     height: 300px;
 }
-
